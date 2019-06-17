@@ -2,6 +2,7 @@ export default [
   {
     name: 'Benny',
     breed: 'tabby',
+    species: 'cat',
     gender: 'male',
     age: 3,
     color: 'orange',
@@ -12,6 +13,7 @@ export default [
   {
     name: 'Dukie',
     breed: 'tabby',
+    species: 'cat',
     gender: 'male',
     age: 8,
     color: 'orange/white',
@@ -22,6 +24,7 @@ export default [
   {
     name: 'Lucia',
     breed: 'tuxedo',
+    species: 'cat',
     gender: 'female',
     age: 9,
     color: 'white/black',
@@ -32,6 +35,7 @@ export default [
   {
     name: 'Dana',
     breed: 'exotic',
+    species: 'cat',
     gender: 'female',
     age: 12,
     color: 'black',
@@ -42,6 +46,7 @@ export default [
   {
     name: 'Punker',
     breed: 'tebby',
+    species: 'cat',
     gender: 'male',
     age: 1,
     color: 'orange',
@@ -52,6 +57,7 @@ export default [
   {
     name: 'Banter',
     breed: 'exotic',
+    species: 'cat',
     gender: 'male',
     age: 8,
     color: 'tan',

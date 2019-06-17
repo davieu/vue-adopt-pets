@@ -2,6 +2,7 @@ export default [
   {
     name: 'Benji',
     breed: 'dachshund',
+    species: 'dog',
     gender: 'male',
     age: 4,
     color: 'black/brown',
@@ -12,6 +13,7 @@ export default [
   {
     name: 'Duke',
     breed: 'Labrador',
+    species: 'dog',
     gender: 'Male',
     age: 6,
     color: 'brown',
@@ -22,6 +24,7 @@ export default [
   {
     name: 'Lucy',
     breed: 'chi-weenie',
+    species: 'dog',
     gender: 'female',
     age: 7,
     color: 'white',
@@ -32,6 +35,7 @@ export default [
   {
     name: 'Daisy',
     breed: 'poodle',
+    species: 'dog',
     gender: 'female',
     age: 10,
     color: 'black',
@@ -42,6 +46,7 @@ export default [
   {
     name: 'Hunk',
     breed: 'afghan hound',
+    species: 'dog',
     gender: 'male',
     age: 3,
     color: 'brown',
@@ -52,6 +57,7 @@ export default [
   {
     name: 'Banjo',
     breed: 'dachshund',
+    species: 'dog',
     gender: 'male',
     age: 11,
     color: 'tan',
