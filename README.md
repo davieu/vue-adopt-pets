@@ -1,3 +1,7 @@
+App using Vue, vuex and router. Also put in a quick darkmode widget. 
+
+Git clone the repo. npm install the packages. Then npm run serve. After that just paste the local host url that it gives you to a browser. 
+
 # adopt-pets
 
 ## Project setup

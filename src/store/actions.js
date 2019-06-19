@@ -5,5 +5,8 @@ export default {
   //Both are the same bottom is the standard. {commit} is from vuex
   addPet: ({ commit }, payload) => {
     commit('appendPet', payload)
+  },
+  removePet: ({commit}, payload) => {
+    commit('deletePet', payload)
   }
 }

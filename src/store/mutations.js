@@ -8,5 +8,20 @@ export default {
     }
     //appends it to the species specific in state
     state[species].push(pet)
+  },
+  deletePet: (state, {index, species}) => {
+
+    if (species === 'cats') {
+      let copyPetsState = [...state.pets]
+      copyPetsState.splice(index, 1)
+      state.pets = copyPetsState
+    } else if (species === 'dogs') {
+      let copyPetsState = [...state.pets]
+      copyPetsState.splice([index + state.cats.length], 1)
+      state.pets = copyPetsState
+    }
+    let copyArray = [...state[species]]
+    copyArray.splice(index, 1)
+    state[species] = copyArray
   }
 }
