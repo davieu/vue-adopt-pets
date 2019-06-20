@@ -1,5 +1,6 @@
 export default [
-  {
+  { 
+    '-': '',
     name: 'Benny',
     breed: 'tabby',
     species: 'cat',
@@ -11,6 +12,7 @@ export default [
     notes: 'Super cute, not very nice'
   },
   {
+    '-': '',
     name: 'Dukie',
     breed: 'tabby',
     species: 'cat',
@@ -22,6 +24,7 @@ export default [
     notes: 'friendly'
   },
   {
+    '-': '',
     name: 'Lucia',
     breed: 'tuxedo',
     species: 'cat',
@@ -33,6 +36,7 @@ export default [
     notes: 'cuddly'
   },
   {
+    '-': '',
     name: 'Dana',
     breed: 'exotic',
     species: 'cat',
@@ -44,6 +48,7 @@ export default [
     notes: 'friendly'
   },
   {
+    '-': '',
     name: 'Punker',
     breed: 'tebby',
     species: 'cat',
@@ -55,6 +60,7 @@ export default [
     notes: 'friendly'
   },
   {
+    '-': '',
     name: 'Banter',
     breed: 'exotic',
     species: 'cat',

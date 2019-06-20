@@ -1,5 +1,6 @@
 export default [
   {
+    '-': '',
     name: 'Benji',
     breed: 'dachshund',
     species: 'dog',
@@ -11,6 +12,7 @@ export default [
     notes: 'Super cute, not very nice'
   },
   {
+    '-': '',
     name: 'Duke',
     breed: 'Labrador',
     species: 'dog',
@@ -22,6 +24,7 @@ export default [
     notes: 'friendly'
   },
   {
+    '-': '',
     name: 'Lucy',
     breed: 'chi-weenie',
     species: 'dog',
@@ -33,6 +36,7 @@ export default [
     notes: 'cuddly'
   },
   {
+    '-': '',
     name: 'Daisy',
     breed: 'poodle',
     species: 'dog',
@@ -44,6 +48,7 @@ export default [
     notes: 'friendly'
   },
   {
+    '-': '',
     name: 'Hunk',
     breed: 'afghan hound',
     species: 'dog',
@@ -55,6 +60,7 @@ export default [
     notes: 'friendly'
   },
   {
+    '-': '',
     name: 'Banjo',
     breed: 'dachshund',
     species: 'dog',

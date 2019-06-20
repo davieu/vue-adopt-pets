@@ -11,6 +11,7 @@ export default {
   },
   deletePet: (state, {index, species}) => {
 
+    //this is for the pets store state
     if (species === 'cats') {
       let copyPetsState = [...state.pets]
       copyPetsState.splice(index, 1)
@@ -20,8 +21,10 @@ export default {
       copyPetsState.splice([index + state.cats.length], 1)
       state.pets = copyPetsState
     }
+    //this is for the species specific state
     let copyArray = [...state[species]]
     copyArray.splice(index, 1)
     state[species] = copyArray
+    console.log(state[species])
   }
 }

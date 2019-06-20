@@ -1,13 +1,16 @@
 <template>
   <div>
     <h1>{{ upperCaseSpecies }} for Adoption</h1>
-    <b-table striped hover :items="pets">
-      <template slot="name" slot-scope="data">
-        <button 
+    <b-table class="pet-table" striped hover :items="pets">
+      <template slot="-" slot-scope="data">
+        <button
+          class="delete-button" 
           @click="confirmHandleDelete(data.index, species)"
         >
-          X
+          <font-awesome-icon icon="minus-circle" />
         </button>
+      </template>
+      <template slot="name" slot-scope="data">
         <router-link :to="`/pets/${species}/${data.index}`">
           {{ data.value }}
         </router-link>
@@ -23,6 +26,10 @@ export default {
   props: {
     species: String,
     pets: Array
+  },
+  data() {
+    return {
+    }
   },
   computed: {
     upperCaseSpecies() {
@@ -47,3 +54,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .pet-table {
+    text-align:center;
+  }
+  .delete-button {
+    display:inline-block;
+  }
+</style>

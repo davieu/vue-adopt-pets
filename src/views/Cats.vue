@@ -26,12 +26,3 @@ export default {
 }
 </script>
 
-<style>
-  /* .rowgroup {
-    color: red;
-  } */
-  /* hr {
-    margin-bottom: -1px;
-    border-width: 5px;
-  } */
-</style>
