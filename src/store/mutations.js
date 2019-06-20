@@ -25,6 +25,13 @@ export default {
     let copyArray = [...state[species]]
     copyArray.splice(index, 1)
     state[species] = copyArray
-    console.log(state[species])
+  },
+
+  updatePet: (state, { species, index, pet}) => {
+    let copyDogsState = [...state[species]]
+    let copyUpdatedDog = pet
+    copyDogsState[index] = copyUpdatedDog
+    state[species] = copyDogsState
+
   }
 }

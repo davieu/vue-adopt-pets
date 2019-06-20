@@ -59,7 +59,4 @@ export default {
   .pet-table {
     text-align:center;
   }
-  .delete-button {
-    display:inline-block;
-  }
 </style>

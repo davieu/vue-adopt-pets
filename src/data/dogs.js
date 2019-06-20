@@ -16,7 +16,7 @@ export default [
     name: 'Duke',
     breed: 'Labrador',
     species: 'dog',
-    gender: 'Male',
+    gender: 'male',
     age: 6,
     color: 'brown',
     weight: 50,

@@ -6,7 +6,12 @@ export default {
   addPet: ({ commit }, payload) => {
     commit('appendPet', payload)
   },
+
   removePet: ({commit}, payload) => {
     commit('deletePet', payload)
+  },
+
+  editPet: ({ commit }, payload) => {
+    commit('updatePet', payload)
   }
 }
