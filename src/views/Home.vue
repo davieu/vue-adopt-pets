@@ -2,8 +2,8 @@
   <div class="home-view-container">
     <h1>Adopt a new best friend!</h1>
     <div class="pet-counter-board"> 
-      Dogs: {{ getAllDogs.length }}  <b>|</b>
-      Cats: {{ getAllCats.length }}  <b>|</b>
+      Dogs: {{ getAllDogs }}  <b>|</b>
+      Cats: {{ getAllCats}}  <b>|</b>
       All Pets: {{ animalsCount }} 
       <br />
       <button @click="togglePetForm" class="btn btn-primary show-form">Add New Pet</button>
@@ -13,7 +13,7 @@
       v-if="showPetForm"
       :formData="formData"
       :handleSubmit="handleSubmit"
-      :showResetBtn="showResetBtn"
+      :onHomePage="onHomePage"
     />
     
   </div>
@@ -30,7 +30,7 @@ export default {
   },
   data() {
     return {
-      showResetBtn: true,
+      onHomePage: true,
       showPetForm: false,
       formData: {
         name: '',

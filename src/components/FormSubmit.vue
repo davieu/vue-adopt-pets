@@ -14,7 +14,7 @@
         </b-form-group>
         </b-col>
 
-        <b-col>
+        <b-col v-if="onHomePage">
         <b-form-group id="input-group-2" class="form-group" label="Species:" label-for="input-2">
           <b-form-select
             id="input-2"
@@ -114,7 +114,7 @@
         
         <div class="submitOrReset">
           <b-button type="submit" class="submit-btn" variant="primary">Submit</b-button>
-          <b-button v-if="showResetBtn" type="reset" class="reset-btn" variant="danger">Reset</b-button>
+          <b-button v-if="onHomePage" type="reset" class="reset-btn" variant="danger">Reset</b-button>
         </div>
       </b-form>
     </div>
@@ -124,7 +124,7 @@
 export default {
   name: 'formSubmit',
   props: {
-    showResetBtn: Boolean,
+    onHomePage: Boolean,
     formData: Object,
     handleSubmit: Function
   }

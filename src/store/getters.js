@@ -2,14 +2,20 @@ export default {
   animalsCount: (state) => {
     return state.cats.length + state.dogs.length
   },
+  // getAllCats: (state) => {
+  //   return state.pets.filter((pet) => {
+  //     return pet.species === 'cat'
+  //   })
+  // },
   getAllCats: (state) => {
-    return state.pets.filter((pet) => {
-      return pet.species === 'cat'
-    })
+    return state.cats.length
   },
+  // getAllDogs: (state) => {
+  //   return state.pets.filter((pet) => {
+  //     return pet.species === 'dog'
+  //   })
+  // }
   getAllDogs: (state) => {
-    return state.pets.filter((pet) => {
-      return pet.species === 'dog'
-    })
+    return state.dogs.length
   }
 }

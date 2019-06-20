@@ -6,7 +6,6 @@
       <p>Age: {{ animal.age }} years old</p>
       <p>Breed: {{ animal.breed }}</p>
       <p>Gender: {{ animal.gender }}</p>
-      <p>Age: {{ animal.age }}</p>
       <p>Color: {{ animal.color }}</p>
       <p>Weight: {{ animal.weight }}</p>
       <p>Location: {{ animal.location }}</p>
@@ -63,6 +62,7 @@ export default {
         }
       }
       this.editPet(payload)
+      this.editing = false
     }
   },
   computed: {
