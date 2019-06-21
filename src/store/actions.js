@@ -9,9 +9,5 @@ export default {
 
   removePet: ({commit}, payload) => {
     commit('deletePet', payload)
-  },
-
-  editPet: ({ commit }, payload) => {
-    commit('updatePet', payload)
   }
 }

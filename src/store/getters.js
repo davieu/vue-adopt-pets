@@ -17,5 +17,9 @@ export default {
   // }
   getAllDogs: (state) => {
     return state.dogs.length
+  },
+
+  getAnimalDetail: (state, species, index) => {
+    return state
   }
 }

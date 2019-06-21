@@ -16,6 +16,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store/index'
 
+let moment = require('moment');
+console.log(moment().format('MM/D/YYYY h:mm:ss A'))
+
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 

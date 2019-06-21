@@ -9,7 +9,9 @@ export default [
     color: 'orange',
     weight: 13,
     location: 'Asheville, NC',
-    notes: 'Super cute, not very nice'
+    notes: 'Super cute, not very nice',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -21,7 +23,9 @@ export default [
     color: 'orange/white',
     weight: 16,
     location: 'Raleigh, NC',
-    notes: 'friendly'
+    notes: 'friendly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -33,7 +37,9 @@ export default [
     color: 'white/black',
     weight: 11,
     location: 'Charlotte, NC',
-    notes: 'cuddly'
+    notes: 'cuddly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -45,7 +51,9 @@ export default [
     color: 'black',
     weight: 15,
     location: 'South Port, NC',
-    notes: 'friendly'
+    notes: 'friendly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -57,7 +65,9 @@ export default [
     color: 'orange',
     weight: 20,
     location: 'Raleigh, NC',
-    notes: 'friendly'
+    notes: 'friendly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -69,6 +79,8 @@ export default [
     color: 'tan',
     weight: 13,
     location: 'Elkin, NC',
-    notes: 'freindly/playful'
+    notes: 'freindly/playful',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   }
 ]

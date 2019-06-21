@@ -9,7 +9,9 @@ export default [
     color: 'black/brown',
     weight: 15,
     location: 'Wilmington, NC',
-    notes: 'Super cute, not very nice'
+    notes: 'Super cute, not very nice',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -21,7 +23,9 @@ export default [
     color: 'brown',
     weight: 50,
     location: 'Wilkesboro, NC',
-    notes: 'friendly'
+    notes: 'friendly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -33,7 +37,9 @@ export default [
     color: 'white',
     weight: 9,
     location: 'Charlotte, NC',
-    notes: 'cuddly'
+    notes: 'cuddly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -45,7 +51,9 @@ export default [
     color: 'black',
     weight: 60,
     location: 'Cary, NC',
-    notes: 'friendly'
+    notes: 'friendly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -57,7 +65,9 @@ export default [
     color: 'brown',
     weight: 90,
     location: 'Raleigh, NC',
-    notes: 'friendly'
+    notes: 'friendly',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   },
   {
     '-': '',
@@ -69,6 +79,8 @@ export default [
     color: 'tan',
     weight: 11,
     location: 'Durham, NC',
-    notes: 'freindly/playful'
+    notes: 'freindly/playful',
+    created: '06/20/2019 1:31:40 PM',
+    modified: '-'
   }
 ]

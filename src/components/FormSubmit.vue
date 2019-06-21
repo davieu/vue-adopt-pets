@@ -1,5 +1,6 @@
 <template>
   <div>
+    <b-jumbotron>
     <b-form @submit.prevent="handleSubmit">
         <b-row>
         <b-col>
@@ -113,10 +114,12 @@
         </b-form-group>
         
         <div class="submitOrReset">
-          <b-button type="submit" class="submit-btn" variant="primary">Submit</b-button>
+          <button v-if="editing" @click="leaveEdit">Back</button>
+          <b-button v-if="onHomePage" type="submit" class="submit-btn" variant="primary">Submit</b-button>
           <b-button v-if="onHomePage" type="reset" class="reset-btn" variant="danger">Reset</b-button>
         </div>
       </b-form>
+      </b-jumbotron>
     </div>
 </template>
 
@@ -126,7 +129,10 @@ export default {
   props: {
     onHomePage: Boolean,
     formData: Object,
-    handleSubmit: Function
+    handleSubmit: Function,
+    editing: Boolean,
+    toggleEditing: Function,
+    leaveEdit: Function
   }
 }
 </script>
